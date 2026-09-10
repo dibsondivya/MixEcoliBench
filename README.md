@@ -19,7 +19,6 @@ All figures and tables are generated directly from the provided inputs and tool 
 The `figures/` and `tables/` directories contain the manuscript-ready outputs generated from `analysis.R`. 
 Running the analysis script will recreate these files from the supplied input data and tool outputs.
 
----
 
 ## Repository structure
 
@@ -47,7 +46,6 @@ Running the analysis script will recreate these files from the supplied input da
 └── README.md
 ```
 
----
 
 ## Requirements
 - R (≥ 4.2 recommended)
@@ -62,7 +60,6 @@ Required packages:
 - kableExtra
 - rstudioapi
 These packages are installed by the R script directly.
----
 
 ## Running the analysis
 
@@ -83,7 +80,6 @@ The script automatically:
 8. Produces figures
 9. Generates manuscript and supplementary LaTeX tables
 
----
 
 ## Outputs
 
@@ -125,7 +121,6 @@ The analysis produces LaTeX tables:
 - H-antigen recovery
 - Complete serotype recovery
 
----
 
 ## Reproducibility
 All analyses are performed directly from the supplied manifest files and processed tool outputs included in this repository. 
@@ -141,6 +136,7 @@ If this repository contributes to your work, please cite the associated manuscri
 ## Contact
 
 Vaishnavi Divya Shridar
+
 divya.shridar@it.uu.se
 
 Department of Information Technology
