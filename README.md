@@ -132,19 +132,17 @@ All analyses are performed directly from the supplied manifest files and process
 Bash scripts were written to produce the utilised results files from the raw tool outputs.
 No external databases, software or internet access are required to reproduce the tables and figures once the required R packages have been installed.
 
----
 
 ## Citation
 
 If this repository contributes to your work, please cite the associated manuscript.
 
----
 
 ## Contact
 
 Vaishnavi Divya Shridar
+divya.shridar@it.uu.se
+
 Department of Information Technology
+
 Uppsala University
-
-
----
