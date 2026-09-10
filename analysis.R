@@ -1,7 +1,6 @@
 # set correct working directory. it should contain
 #  - a data folder 
 #  - a results folder
-#   - an empty figures folder
 
 set_conf = 0.68
 
@@ -12,6 +11,7 @@ if(length(missing_packages) > 0) { install.packages( missing_packages, repos = "
 invisible( lapply( required_packages, library, character.only = TRUE ) )
 setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 ifelse(!dir.exists(file.path('figures')), dir.create(file.path('figures')), "Directory Exists")
+ifelse(!dir.exists(file.path('tables')), dir.create(file.path('tables')), "Directory Exists")
 
 # gene table ----------------------------------------------------------------------------
 arg_genes <- c("blaTEM","sul1","sul2","sul3","tetA","tetB","tetD")
@@ -111,7 +111,7 @@ table3_tex_full <- c(
   "\\end{table}"
 )
 
-writeLines(table3_tex_full, "figures/table3_gene_recovery_assembly.tex")
+writeLines(table3_tex_full, "tables/table3_gene_recovery_assembly.tex")
 
 table4_tbl <- tibble(Input = paste0( sprintf("ARG%02d", 1:10), " $\\mid$ ", sprintf("VG%02d", 1:10)),
   ARG = sprintf("%.2f", arg_srst2_tbl$GRR),
@@ -147,7 +147,7 @@ table4_tex_full <- c(
   "\\end{table}"
 )
 
-writeLines(table4_tex_full, "figures/table4_gene_recovery_srst2.tex")
+writeLines(table4_tex_full, "tables/table4_gene_recovery_srst2.tex")
 
 
 # data description  ----------------------------------------------------------------------------
@@ -354,8 +354,8 @@ rare_summary_tex_full <- c(
 )
 
 
-writeLines(mlst_predictions_tex, "figures/table5_mlst_predictions.tex")
-writeLines(rare_summary_tex_full, "figures/supplementary_table2_rare_mlst_summary.tex")
+writeLines(mlst_predictions_tex, "tables/table5_mlst_predictions.tex")
+writeLines(rare_summary_tex_full, "tables/supplementary_table2_rare_mlst_summary.tex")
 
 
 # make serotype results table -----------------------------------------------------------------------------------
@@ -477,7 +477,7 @@ rr_latex <- paste(
   sep = "\n"
 )
 
-writeLines(rr_latex,"figures/table6_table_overall_serotype_rare.tex")
+writeLines(rr_latex,"tables/table6_table_overall_serotype_rare.tex")
 
 
 # make figures -----------------------------------------------------------------------------------
@@ -736,7 +736,7 @@ complete_latex <- paste(
   sep = "\n"
 )
 
-writeLines(overall_tex,  "figures/supplementary_table3_serotype_overall.tex")
-writeLines(o_latex,        "figures/supplementary_table4_serotype_O.tex")
-writeLines(h_latex,        "figures/supplementary_table5_serotype_H.tex")
-writeLines(complete_latex, "figures/supplementary_table6_serotype_complete.tex")
+writeLines(overall_tex,  "tables/supplementary_table3_serotype_overall.tex")
+writeLines(o_latex,        "tables/supplementary_table4_serotype_O.tex")
+writeLines(h_latex,        "tables/supplementary_table5_serotype_H.tex")
+writeLines(complete_latex, "tables/supplementary_table6_serotype_complete.tex")

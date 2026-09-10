@@ -16,12 +16,14 @@ The analysis script reproduces:
 
 All figures and tables are generated directly from the provided inputs and tool outputs.
 
+The `figures/` and `tables/` directories contain the manuscript-ready outputs generated from `analysis.R`. 
+Running the analysis script will recreate these files from the supplied input data and tool outputs.
+
 ---
 
 ## Repository structure
 
 ```text
-.
 ├── analysis.R
 ├── data/
 │   ├── st_serotype_mixed_range_fixed_manifest.tsv
@@ -41,6 +43,7 @@ All figures and tables are generated directly from the provided inputs and tool 
 │   ├── virulencefinder.tsv
 │   └── virulence-srst2.tsv
 ├── figures/
+├── tables/
 └── README.md
 ```
 
@@ -63,10 +66,10 @@ These packages are installed by the R script directly.
 
 ## Running the analysis
 
-Open `figure_generator.R` in RStudio or an R session and run:
+Open `analysis.R` in RStudio or an R session and run:
 
 ```r
-source("figure_generator.R")
+source("analysis.R")
 ```
 
 The script automatically:
@@ -79,12 +82,6 @@ The script automatically:
 7. Generates serotype summary tables
 8. Produces figures
 9. Generates manuscript and supplementary LaTeX tables
-
-Generated figures are written to:
-
-```text
-figures/
-```
 
 ---
 
