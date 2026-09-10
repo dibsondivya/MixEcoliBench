@@ -1,6 +1,6 @@
-# Mixed-strain *Escherichia coli* benchmarking dataset and analysis
+# Mixed-strain *E. coli* benchmarking dataset and analysis
 
-This repository contains the input data, tool outputs, and analysis code used to evaluate sequence type (MLST), serotype, antimicrobial resistance gene (ARG), and virulence gene (VG) prediction methods on simulated mixed-strain Escherichia coli metagenomes.
+This repository contains the input data, tool outputs, and analysis code used to evaluate sequence type (MLST), serotype, antimicrobial resistance gene (ARG), and virulence gene (VG) prediction methods on simulated mixed-strain *Escherichia coli* metagenomes.
 
 The analysis script reproduces:
 
