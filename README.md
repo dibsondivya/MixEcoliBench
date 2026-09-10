@@ -5,13 +5,12 @@ This repository contains the input data, tool outputs, and analysis code used to
 The analysis script reproduces:
 
 - Summary metadata tables describing simulated datasets
+- Antibiotic resistance gene (ARG) recovery tables
+- Virulence gene (VG) recovery tables
 - MLST prediction tables
 - MLST performance figures
 - Serotype prediction tables
 - Serotype performance figures
-- Antibiotic resistance gene (ARG) recovery tables
-- Virulence gene (VG) recovery tables
-- Rare (log-normal) dataset summary tables
 - Supplementary LaTeX tables
 
 All figures and tables are generated directly from the provided inputs and tool outputs.
