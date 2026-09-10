@@ -1,0 +1,51 @@
+dataset_type	simulation	abundance_file	target_dominant_abundance	dominant_percentage	dominant_ST	dominant_Serotype	realised_ST_abundance	realised_Serotype_abundance	dominant_genomes	n_dominant_genomes	background_genomes	n_background_genomes	background_abundance	fixed_lognormal_sigma
+fixed	1	st_serotype_mixed_range_60_abundances_01.txt	0.6	60	21	O26:H11	0.6	0.6	GCF_000091005.1_ASM9100v1_genomic.fa	1	ECOR54.fa;ECOR56.fa;ecoli_k1_923.fa	3	0.4	0.5
+fixed	2	st_serotype_mixed_range_60_abundances_02.txt	0.6	60	43	O6:H10	0.6	0.6	ECOR10.fa	1	ECOR55.fa;GCF_000091005.1_ASM9100v1_genomic.fa	2	0.4	0.5
+fixed	3	st_serotype_mixed_range_60_abundances_03.txt	0.6	60	17	O103:H2	0.6	0.6	GCF_000010745.1_ASM1074v1_genomic.fa	1	GCF_000091005.1_ASM9100v1_genomic.fa;ECOR59.fa;ecoli_k1_904.fa	3	0.4	0.5
+fixed	4	st_serotype_mixed_range_60_abundances_04.txt	0.6	60	73	O6:H1	0.6	0.6	ECOR56.fa	1	GCF_000010745.1_ASM1074v1_genomic.fa;GCF_000091005.1_ASM9100v1_genomic.fa	2	0.4	0.5
+fixed	5	st_serotype_mixed_range_60_abundances_05.txt	0.6	60	73	O25:H1	0.6	0.6	ECOR54.fa;ECOR55.fa	2	ECOR26.fa;ecoli_k1_904.fa	2	0.4	0.5
+fixed	6	st_serotype_mixed_range_60_abundances_06.txt	0.6	60	12	O4:H40	0.6	0.6	ECOR59.fa	1	ECOR26.fa;GCF_000010745.1_ASM1074v1_genomic.fa	2	0.4	0.5
+fixed	7	st_serotype_mixed_range_60_abundances_07.txt	0.6	60	53	O104:H21	0.6	0.6	ECOR26.fa	1	ECOR54.fa;ecoli_k1_923.fa;GCF_000008865.2_ASM886v2_genomic.fa	3	0.4	0.5
+fixed	8	st_serotype_mixed_range_60_abundances_08.txt	0.6	60	11	O157:H7	0.6	0.6	GCF_000008865.2_ASM886v2_genomic.fa	1	GCF_000091005.1_ASM9100v1_genomic.fa	1	0.4	0.5
+fixed	9	st_serotype_mixed_range_60_abundances_09.txt	0.6	60	11	O157:H7	0.6	0.6	GCF_000008865.2_ASM886v2_genomic.fa	1	ECOR10.fa	1	0.4	0.5
+fixed	10	st_serotype_mixed_range_60_abundances_10.txt	0.6	60	17	O103:H2	0.6	0.6	GCF_000010745.1_ASM1074v1_genomic.fa	1	GCF_000091005.1_ASM9100v1_genomic.fa;ECOR59.fa	2	0.4	0.5
+fixed	1	st_serotype_mixed_range_70_abundances_01.txt	0.7	70	11	O157:H7	0.7	0.7	GCF_000008865.2_ASM886v2_genomic.fa	1	ECOR56.fa;ECOR55.fa	2	0.30000000000000004	0.5
+fixed	2	st_serotype_mixed_range_70_abundances_02.txt	0.7	70	73	O25:H1	0.7	0.7	ECOR54.fa;ECOR55.fa	2	ECOR59.fa;GCF_000008865.2_ASM886v2_genomic.fa	2	0.30000000000000004	0.5
+fixed	3	st_serotype_mixed_range_70_abundances_03.txt	0.7	70	43	O6:H10	0.7	0.7	ECOR10.fa	1	ECOR26.fa;ecoli_k1_904.fa	2	0.30000000000000004	0.5
+fixed	4	st_serotype_mixed_range_70_abundances_04.txt	0.7	70	73	O6:H1	0.7	0.7	ECOR56.fa	1	ecoli_k1_904.fa;ECOR59.fa;ecoli_k1_939.fa	3	0.30000000000000004	0.5
+fixed	5	st_serotype_mixed_range_70_abundances_05.txt	0.7	70	21	O26:H11	0.7	0.7	GCF_000091005.1_ASM9100v1_genomic.fa	1	ECOR55.fa	1	0.30000000000000004	0.5
+fixed	6	st_serotype_mixed_range_70_abundances_06.txt	0.7	70	53	O104:H21	0.7	0.7	ECOR26.fa	1	ECOR55.fa;GCF_000008865.2_ASM886v2_genomic.fa;ECOR54.fa	3	0.30000000000000004	0.5
+fixed	7	st_serotype_mixed_range_70_abundances_07.txt	0.7	70	17	O103:H2	0.7	0.7	GCF_000010745.1_ASM1074v1_genomic.fa	1	GCF_000091005.1_ASM9100v1_genomic.fa;ECOR55.fa;ECOR54.fa	3	0.30000000000000004	0.5
+fixed	8	st_serotype_mixed_range_70_abundances_08.txt	0.7	70	12	O4:H40	0.7	0.7	ECOR59.fa	1	ecoli_k1_923.fa;ECOR26.fa	2	0.30000000000000004	0.5
+fixed	9	st_serotype_mixed_range_70_abundances_09.txt	0.7	70	43	O6:H10	0.7	0.7	ECOR10.fa	1	GCF_000008865.2_ASM886v2_genomic.fa;ECOR26.fa	2	0.30000000000000004	0.5
+fixed	10	st_serotype_mixed_range_70_abundances_10.txt	0.7	70	21	O26:H11	0.7	0.7	GCF_000091005.1_ASM9100v1_genomic.fa	1	GCF_000010745.1_ASM1074v1_genomic.fa;ECOR54.fa	2	0.30000000000000004	0.5
+fixed	1	st_serotype_mixed_range_80_abundances_01.txt	0.8	80	73	O6:H1	0.8	0.8	ECOR56.fa	1	GCF_000010745.1_ASM1074v1_genomic.fa	1	0.19999999999999996	0.5
+fixed	2	st_serotype_mixed_range_80_abundances_02.txt	0.8	80	12	O4:H40	0.8	0.8	ECOR59.fa	1	GCF_000010745.1_ASM1074v1_genomic.fa;ECOR26.fa	2	0.19999999999999996	0.5
+fixed	3	st_serotype_mixed_range_80_abundances_03.txt	0.8	80	53	O104:H21	0.8	0.8	ECOR26.fa	1	ecoli_k1_923.fa;ecoli_k1_939.fa;ECOR56.fa	3	0.19999999999999996	0.5
+fixed	4	st_serotype_mixed_range_80_abundances_04.txt	0.8	80	73	O25:H1	0.8	0.8	ECOR54.fa;ECOR55.fa	2	ECOR26.fa;ecoli_k1_923.fa	2	0.19999999999999996	0.5
+fixed	5	st_serotype_mixed_range_80_abundances_05.txt	0.8	80	21	O26:H11	0.8	0.8	GCF_000091005.1_ASM9100v1_genomic.fa	1	ecoli_k1_923.fa	1	0.19999999999999996	0.5
+fixed	6	st_serotype_mixed_range_80_abundances_06.txt	0.8	80	43	O6:H10	0.8	0.8	ECOR10.fa	1	ecoli_k1_939.fa;GCF_000008865.2_ASM886v2_genomic.fa	2	0.19999999999999996	0.5
+fixed	7	st_serotype_mixed_range_80_abundances_07.txt	0.8	80	11	O157:H7	0.8	0.8	GCF_000008865.2_ASM886v2_genomic.fa	1	ecoli_k1_904.fa;ecoli_k1_939.fa	2	0.19999999999999996	0.5
+fixed	8	st_serotype_mixed_range_80_abundances_08.txt	0.8	80	17	O103:H2	0.8	0.8	GCF_000010745.1_ASM1074v1_genomic.fa	1	ecoli_k1_904.fa;ECOR10.fa;GCF_000091005.1_ASM9100v1_genomic.fa	3	0.19999999999999996	0.5
+fixed	9	st_serotype_mixed_range_80_abundances_09.txt	0.8	80	17	O103:H2	0.8	0.8	GCF_000010745.1_ASM1074v1_genomic.fa	1	ECOR59.fa;ecoli_k1_939.fa	2	0.19999999999999996	0.5
+fixed	10	st_serotype_mixed_range_80_abundances_10.txt	0.8	80	73	O6:H1	0.8	0.8	ECOR56.fa	1	ecoli_k1_939.fa	1	0.19999999999999996	0.5
+fixed	1	st_serotype_mixed_range_90_abundances_01.txt	0.9	90	73	O25:H1	0.9	0.9	ECOR54.fa;ECOR55.fa	2	ecoli_k1_939.fa;GCF_000010745.1_ASM1074v1_genomic.fa;GCF_000091005.1_ASM9100v1_genomic.fa	3	0.1	0.5
+fixed	2	st_serotype_mixed_range_90_abundances_02.txt	0.9	90	43	O6:H10	0.9	0.9	ECOR10.fa	1	ECOR26.fa;ECOR54.fa;GCF_000008865.2_ASM886v2_genomic.fa	3	0.1	0.5
+fixed	3	st_serotype_mixed_range_90_abundances_03.txt	0.9	90	12	O4:H40	0.9	0.9	ECOR59.fa	1	GCF_000008865.2_ASM886v2_genomic.fa;GCF_000010745.1_ASM1074v1_genomic.fa;ECOR54.fa	3	0.1	0.5
+fixed	4	st_serotype_mixed_range_90_abundances_04.txt	0.9	90	73	O6:H1	0.9	0.9	ECOR56.fa	1	GCF_000010745.1_ASM1074v1_genomic.fa;GCF_000091005.1_ASM9100v1_genomic.fa;ecoli_k1_923.fa	3	0.1	0.5
+fixed	5	st_serotype_mixed_range_90_abundances_05.txt	0.9	90	17	O103:H2	0.9	0.9	GCF_000010745.1_ASM1074v1_genomic.fa	1	ECOR10.fa;ECOR26.fa;ecoli_k1_904.fa	3	0.1	0.5
+fixed	6	st_serotype_mixed_range_90_abundances_06.txt	0.9	90	53	O104:H21	0.9	0.9	ECOR26.fa	1	ecoli_k1_939.fa;ECOR10.fa	2	0.1	0.5
+fixed	7	st_serotype_mixed_range_90_abundances_07.txt	0.9	90	21	O26:H11	0.9	0.9	GCF_000091005.1_ASM9100v1_genomic.fa	1	GCF_000010745.1_ASM1074v1_genomic.fa;ECOR59.fa;ecoli_k1_904.fa	3	0.1	0.5
+fixed	8	st_serotype_mixed_range_90_abundances_08.txt	0.9	90	11	O157:H7	0.9	0.9	GCF_000008865.2_ASM886v2_genomic.fa	1	GCF_000010745.1_ASM1074v1_genomic.fa	1	0.1	0.5
+fixed	9	st_serotype_mixed_range_90_abundances_09.txt	0.9	90	53	O104:H21	0.9	0.9	ECOR26.fa	1	GCF_000008865.2_ASM886v2_genomic.fa;ECOR55.fa;ECOR54.fa	3	0.1	0.5
+fixed	10	st_serotype_mixed_range_90_abundances_10.txt	0.9	90	43	O6:H10	0.9	0.9	ECOR10.fa	1	GCF_000008865.2_ASM886v2_genomic.fa	1	0.1	0.5
+fixed	1	st_serotype_mixed_range_100_abundances_01.txt	1	100	53	O104:H21	1	1	ECOR26.fa	1		0	0	0.5
+fixed	2	st_serotype_mixed_range_100_abundances_02.txt	1	100	43	O6:H10	1	1	ECOR10.fa	1		0	0	0.5
+fixed	3	st_serotype_mixed_range_100_abundances_03.txt	1	100	11	O157:H7	1	1	GCF_000008865.2_ASM886v2_genomic.fa	1		0	0	0.5
+fixed	4	st_serotype_mixed_range_100_abundances_04.txt	1	100	12	O4:H40	1	1	ECOR59.fa	1		0	0	0.5
+fixed	5	st_serotype_mixed_range_100_abundances_05.txt	1	100	21	O26:H11	1	1	GCF_000091005.1_ASM9100v1_genomic.fa	1		0	0	0.5
+fixed	6	st_serotype_mixed_range_100_abundances_06.txt	1	100	17	O103:H2	1	1	GCF_000010745.1_ASM1074v1_genomic.fa	1		0	0	0.5
+fixed	7	st_serotype_mixed_range_100_abundances_07.txt	1	100	73	O6:H1	1	1	ECOR56.fa	1		0	0	0.5
+fixed	8	st_serotype_mixed_range_100_abundances_08.txt	1	100	73	O25:H1	1	1	ECOR54.fa;ECOR55.fa	2		0	0	0.5
+fixed	9	st_serotype_mixed_range_100_abundances_09.txt	1	100	53	O104:H21	1	1	ECOR26.fa	1		0	0	0.5
+fixed	10	st_serotype_mixed_range_100_abundances_10.txt	1	100	17	O103:H2	1	1	GCF_000010745.1_ASM1074v1_genomic.fa	1		0	0	0.5

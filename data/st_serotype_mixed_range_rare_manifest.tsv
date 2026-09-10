@@ -1,0 +1,11 @@
+dataset_type	simulation	abundance_file	n_genomes	selected_genomes	dominant_ST	dominant_ST_abundance	dominant_Serotype	dominant_Serotype_abundance	rare_lognormal_sigma	resample_attempts
+rare	1	st_serotype_mixed_range_rare_abundances_01.txt	3	GCF_000010745.1_ASM1074v1_genomic.fa;GCF_000008865.2_ASM886v2_genomic.fa;ECOR10.fa	11	0.5971591708871538	O157:H7	0.5971591708871538	1	1
+rare	2	st_serotype_mixed_range_rare_abundances_02.txt	10	ECOR59.fa;GCF_000008865.2_ASM886v2_genomic.fa;ECOR55.fa;ecoli_k1_904.fa;GCF_000010745.1_ASM1074v1_genomic.fa;ECOR56.fa;ecoli_k1_939.fa;ECOR10.fa;ECOR54.fa;ecoli_k1_923.fa	17	0.3901034982695782	O103:H2	0.3901034982695782	1	1
+rare	3	st_serotype_mixed_range_rare_abundances_03.txt	5	ECOR54.fa;ECOR55.fa;ECOR56.fa;GCF_000008865.2_ASM886v2_genomic.fa;GCF_000010745.1_ASM1074v1_genomic.fa	73	0.8791266761773597	O6:H1	0.6080271725798305	1	4
+rare	4	st_serotype_mixed_range_rare_abundances_04.txt	8	ECOR55.fa;ECOR10.fa;GCF_000008865.2_ASM886v2_genomic.fa;ECOR54.fa;ECOR26.fa;ecoli_k1_923.fa;ECOR59.fa;ecoli_k1_904.fa	12	0.3309150637816861	O4:H40	0.3309150637816861	1	1
+rare	5	st_serotype_mixed_range_rare_abundances_05.txt	6	ECOR10.fa;ECOR56.fa;ECOR26.fa;ecoli_k1_939.fa;ECOR59.fa;GCF_000010745.1_ASM1074v1_genomic.fa	17	0.33138905751277187	O103:H2	0.33138905751277187	1	1
+rare	6	st_serotype_mixed_range_rare_abundances_06.txt	8	ECOR59.fa;ECOR54.fa;GCF_000008865.2_ASM886v2_genomic.fa;ECOR26.fa;ecoli_k1_904.fa;GCF_000091005.1_ASM9100v1_genomic.fa;GCF_000010745.1_ASM1074v1_genomic.fa;ECOR10.fa	43	0.3476163142676149	O6:H10	0.3476163142676149	1	1
+rare	7	st_serotype_mixed_range_rare_abundances_07.txt	3	ECOR54.fa;GCF_000010745.1_ASM1074v1_genomic.fa;GCF_000008865.2_ASM886v2_genomic.fa	11	0.6605089084733577	O157:H7	0.6605089084733577	1	1
+rare	8	st_serotype_mixed_range_rare_abundances_08.txt	4	ECOR55.fa;ECOR56.fa;ECOR10.fa;ECOR59.fa	73	0.5015615536950169	O25:H1	0.3794408234374622	1	2
+rare	9	st_serotype_mixed_range_rare_abundances_09.txt	3	GCF_000091005.1_ASM9100v1_genomic.fa;ECOR26.fa;ECOR56.fa	73	0.7036793988401752	O6:H1	0.7036793988401752	1	2
+rare	10	st_serotype_mixed_range_rare_abundances_10.txt	7	GCF_000008865.2_ASM886v2_genomic.fa;ecoli_k1_923.fa;ECOR56.fa;ECOR55.fa;ECOR26.fa;GCF_000010745.1_ASM1074v1_genomic.fa;ECOR54.fa	73	0.4412214604187351	O6:H1	0.222975345	1	1
