@@ -59,6 +59,7 @@ Required packages:
 - knitr
 - kableExtra
 - rstudioapi
+
 These packages are installed by the R script directly.
 
 ## Running the analysis
@@ -90,7 +91,7 @@ Average gene recovery rate (AGRR) is calculated as the mean GRR across all ten s
 
 ### Virulence gene recovery
 Virulence recovery tables compare: ABRicate (VFDB), VirulenceFinder, SRST2.
-For virulence benchmarking, Shiga toxin subtypes are collapsed into toxin-level presence/absence:
+For virulence benchmarking, shiga toxin subtypes are collapsed into toxin-level presence/absence:
 - stx1A and stx1B → stx1
 - stx2A and stx2B → stx2
 Gene recovery rate (GRR) is calculated from the presence of: eae, stx1, stx2.
@@ -107,19 +108,18 @@ Performance of serotype prediction tools across dominant-strain abundance levels
 figures/mixed_range_serotype_performance.png
 ```
 
-Performance of serotyping tools evaluated as: O-antigen recovery, H-antigen recovery, Overall antigen recovery, Complete serotype recovery.
+Performance of serotyping tools are evaluated as: O-antigen recovery, H-antigen recovery, Overall antigen recovery, Complete serotype recovery.
 
-The analysis produces LaTeX tables:
-- ARG gene benchmarking from assembly tools
-- Virulence gene recovery benchmarking from assembly tools
-- ARG/VG recovery benchmarking from read-based SRST2
-- MLST predictions
-- MLST performance summary
-- Serotype performance summary
-- Overall antigen recovery
-- O-antigen recovery
-- H-antigen recovery
-- Complete serotype recovery
+Overall, this analysis produces LaTeX tables:
+- Table 3.1: ARG and virulence gene benchmarking from assembly tools
+- Table 3.2: ARG/VG recovery benchmarking from read-based SRST2
+- Table 3.3: MLST predictions
+- Table 3.4: Serotype performance summary
+- Supp Table S2: MLST performance summary
+- Supp Table S3: Overall antigen recovery
+- Supp Table S4: O-antigen recovery
+- Supp Table S5: H-antigen recovery
+- Supp Table S6: Complete serotype recovery
 
 
 ## Reproducibility
